@@ -17,7 +17,7 @@ full_packet_list = []
 ServerActive = True
 Serverip = '185.222.242.249'
 Serverport = 5029
-broker_address = "192.168.0.100"
+broker_address = "192.168.0.107"
 broker_port = 1883
 responsePacket = ''
 response2 = ''
@@ -366,7 +366,7 @@ class EchoServer(asyncore.dispatcher):
         handler = EchoHandler(sock)
 
 # Run the server
-server = EchoServer('', 2000)
+server = EchoServer('', 3000)
 try:
     asyncore.loop()
 except KeyboardInterrupt:
