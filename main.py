@@ -366,7 +366,7 @@ class EchoServer(asyncore.dispatcher):
         handler = EchoHandler(sock)
 
 # Run the server
-server = EchoServer('', 3000)
+server = EchoServer('', 2000)
 try:
     asyncore.loop()
 except KeyboardInterrupt:
