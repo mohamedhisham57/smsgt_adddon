@@ -23,7 +23,7 @@
     "measurement": "str"
   },
   "ports": {
-    "3000/tcp": 3000
+    "3000/tcp": 2000
   },
   "map": [
     "ssl:rw",
