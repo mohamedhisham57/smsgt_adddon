@@ -1,7 +1,7 @@
 {
-  "name": "FreezesBackupLocaladdon",
+  "name": "localaddon",
   "version": "1.0",
-  "slug": "FreezesBackupLocaladdon",
+  "slug": "localaddon",
   "description": "localdatabase v2 gateway on local database home assistant",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
